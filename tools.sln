@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tools.AppHost", "tools.AppHost\tools.AppHost.csproj", "{93BE6CD6-ED84-4A42-9A11-97DDCA028944}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tools.ApiService", "tools.ApiService\tools.ApiService.csproj", "{C67453ED-5041-4E64-BD41-D44E63861303}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tools.Web", "tools.Web\tools.Web.csproj", "{5D527B1A-4D90-4288-8283-7917FF147AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{F287F390-4DF4-4233-B39A-E903ACD56C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{5D527B1A-4D90-4288-8283-7917FF147AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D527B1A-4D90-4288-8283-7917FF147AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D527B1A-4D90-4288-8283-7917FF147AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F287F390-4DF4-4233-B39A-E903ACD56C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F287F390-4DF4-4233-B39A-E903ACD56C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F287F390-4DF4-4233-B39A-E903ACD56C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F287F390-4DF4-4233-B39A-E903ACD56C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
