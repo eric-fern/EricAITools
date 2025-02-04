@@ -6,11 +6,11 @@ using Microsoft.Extensions.Logging;
 //DO SOMETHING IF RECEIVE HTTP
 namespace AzureFunctions
 {
-    public class Function1
+    public class HelloWorld
     {
-        private readonly ILogger<Function1> _logger;
+        private readonly ILogger<HelloWorld> _logger;
 
-        public Function1(ILogger<Function1> logger)
+        public HelloWorld(ILogger<HelloWorld> logger)
         {
             _logger = logger;
         }
@@ -18,7 +18,8 @@ namespace AzureFunctions
         [Function("HelloWorld")]
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            //log and print if receive http
+            _logger.LogInformation("C# HTTP trigger function - HelloWorld received http");
             return new OkObjectResult("Welcome to Azure Functions!");
         }
     }
