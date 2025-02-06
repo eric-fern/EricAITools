@@ -6,11 +6,11 @@ using Microsoft.Extensions.Logging;
 //DO SOMETHING IF RECEIVE HTTP
 namespace AzureFunctions
 {
-    public class HelloWorld
+    public class HelloWorldTrigger
     {
-        private readonly ILogger<HelloWorld> _logger;
-
-        public HelloWorld(ILogger<HelloWorld> logger)
+        private readonly ILogger<HelloWorldTrigger> _logger;
+        //constructor for the logger
+        public HelloWorldTrigger(ILogger<HelloWorldTrigger> logger)
         {
             _logger = logger;
         }
